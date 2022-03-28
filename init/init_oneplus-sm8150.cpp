@@ -146,18 +146,22 @@ void vendor_load_properties() {
       switch (rf_version){
         case 1:
           /* China */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1900");
           break;
         case 3:
           /* India */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1901");
           break;
         case 4:
           /* Europe */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1903");
           break;
         case 5:
           /* Global / US Unlocked */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1905");
           break;
       }
@@ -172,18 +176,22 @@ void vendor_load_properties() {
       switch (rf_version){
         case 1:
           /* China */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1910");
           break;
         case 3:
           /* India */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1911");
           break;
         case 4:
           /* Europe */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1913");
           break;
         case 5:
           /* Global / US Unlocked */
+          property_override("persist.radio.multisim.config", "ssss");
           property_override("ro.product.model", "HD1917");
           break;
       }
