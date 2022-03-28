@@ -138,6 +138,7 @@ void vendor_load_properties() {
       break;
     case 18831:
       /* OnePlus 7 Pro T-Mobile */
+      property_override("persist.radio.multisim.config", "ssss");
       property_override("ro.product.model", "GM1915");
       break;
     case 18865:
@@ -163,6 +164,7 @@ void vendor_load_properties() {
       break;
     case 19863:
       /* OnePlus 7T T-Mobile */
+      property_override("persist.radio.multisim.config", "ssss");
       property_override("ro.product.model", "HD1907");
       break;
     case 19801:
